@@ -1,8 +1,13 @@
 <template name="tweetsList">
 
+    <input type="text" name="hashtagSearch" placeholder="Hashtag (without the #)...">
+    <button>Start the stream</button>
+
     <h1>Streaming… {{tweetscount}} tweets</h1>
     {{#each tweets}}
         {{> tweetItem}}
     {{/each}}
+
+    {{tedIsCool}}
 
 </template>
