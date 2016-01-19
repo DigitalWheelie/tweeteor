@@ -1,11 +1,11 @@
 {
  "consumer": {
-  "key": "XXXXXXXXXXXX",
-  "secret": "XXXXXXXXXXXX"
+  "key": "7RNWj8HxhcGLZNJ5uMPL4w",
+  "secret": "7FfxhBnZANLYFEFSugykf5o0VurhQ3v1roUVokmiU"
  },
  "access_token": {
-  "key": "XXXXXXXXXXXX",
-  "secret": "XXXXXXXXXXXX"
+  "key": "105821864-QPu5NSJNi2J9zp9iWEEzSOJqN9voXe9TyDrUYrGq",
+  "secret": "VeauK42YrUFEKhJRL7poTA3wFv38tKrA1ZOZsbRdtZrYY"
  },
  "keyword": ["art","drawing"]
 }
