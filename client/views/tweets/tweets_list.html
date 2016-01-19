@@ -3,9 +3,11 @@
     <input type="text" name="hashtagSearch" placeholder="Hashtag (without the #)...">
     <button>Start the stream</button>
 
+    <div id="tweets-sketch"></div>
+
     <h1>Streaming… {{tweetscount}} tweets</h1>
     {{#each tweets}}
-        {{> tweetItem}}
+      {{> tweetItem}}
     {{/each}}
 
     {{tedIsCool}}

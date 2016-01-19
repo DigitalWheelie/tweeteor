@@ -26,7 +26,6 @@ Meteor.methods({
 
       for ( var i = 0; i < statuses.length; i++ ) {
         var tweet = statuses[ i ];
-
         var userName = tweet.user.name;
         var userScreenName = tweet.user.screen_name;
         var userTweet = tweet.text;
@@ -46,41 +45,5 @@ Meteor.methods({
          });
       }
     }));
-
-
-    //   //
-    //   // filter the twitter public stream
-    //   //
-     //
-    //  var stream = T.stream('statuses/filter', { track: conf.keyword, language: 'en'  });
-     //
-    //  var limit   = 100,
-    //      counter = 0;
-     //
-    //  stream.on('tweet', Meteor.bindEnvironment(function (tweet) {
-    //   var userName = tweet.user.name;
-    //   var userScreenName = tweet.user.screen_name;
-    //   var userTweet = tweet.text;
-    //   var tweetDate = tweet.created_at;
-    //   var profileImg = tweet.user.profile_image_url;
-     //
-    //      Tweets.insert({
-    //        user: userName,
-    //        userscreen: userScreenName,
-    //        tweet: userTweet,
-    //        picture: profileImg,
-    //        date: tweetDate
-    //      }, function(error){
-    //        if(error) {
-    //          console.log(error);
-    //        }
-    //      });
-     //
-    //      ++counter;
-     //
-    //      if ( counter === limit ) {
-    //        stream.stop();
-    //      }
-    //  }));
   }
 });
